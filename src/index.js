@@ -29,13 +29,17 @@ const createWindow = () => {
 
     // and load the index.html of the app.
     mainWindow.loadFile(path.join(__dirname, 'index.html'));
-    mainWindow.setFullScreen(true);
+    mainWindow.maximize();
     mainWindow.setAlwaysOnTop(true);
+    mainWindow.setFullScreen(true);
     // Open the DevTools.
     //mainWindow.webContents.openDevTools();
+    /*globalShortcut.register('Super', (event) => {
+        event.preventDefault();
+    });*/
     globalShortcut.register('Alt+CommandOrControl+Q', () => {
         app.quit();
-    })
+    });
 };
 
 app.on('web-contents-created', function(webContentsCreatedEvent, contents) {
@@ -60,6 +64,10 @@ app.on('window-all-closed', () => {
     if (process.platform !== 'darwin') {
         app.quit();
     }
+});
+
+app.on('before-quit', () => {
+    globalShortcut.unregisterAll();
 });
 
 app.on('activate', () => {

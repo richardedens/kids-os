@@ -24,6 +24,10 @@ window.onload = function() {
 
     const btnClassroom = document.getElementById('gclassroom');
     btnClassroom.addEventListener('click', function() {
+        let child = document.getElementById('classroomwebviewchild');
+        if (child !== null) {
+            child.remove();
+        }
         classroomscreen.classList.remove('hidden');
         chromiumscreen.classList.add('hidden');
         youtubescreen.classList.add('hidden');
