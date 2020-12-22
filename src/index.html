@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kids OS</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="kidsoswindow kidsos center"><img id="kidsos" width="800" height="600" src="icons/kidsos.svg"></div>
+    <div id="classroomscreen" class="kidsoswindow whitebg hidden">
+        <webview id="classroomwebview" class="kidsoswindow" src="https://classroom.google.com/" useragent="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko" webpreferences="nativeWindowOpen=true" allowpopups disablewebsecurity></webview>
+    </div>
+    <div id="chromiumscreen" class="kidsoswindow whitebg hidden">
+        <webview id="chromiumwebview" class="kidsoswindow" src="https://cool.cloudwise.eu/" useragent="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko" webpreferences="nativeWindowOpen=true" allowpopups disablewebsecurity></webview>
+    </div>
+    <div id="youtubescreen" class="kidsoswindow whitebg hidden">
+        <webview id="youtubewebview" class="kidsoswindow" src="https://youtube.com/kids" useragent="Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; AS; rv:11.0) like Gecko" webpreferences="nativeWindowOpen=true" allowpopups disablewebsecurity></webview>
+    </div>
+
+    <div id="taskbar" class="taskbar">
+        <img id="gdesktop" class="item" src="icons/desktop.svg">
+        <img id="gchromium" class="item" src="icons/chromium.svg">
+        <img id="gclassroom" class="item" src="icons/google_classroom.svg">
+        <div id="timebar" class="timebar"></div>
+        <!--<img id="gyoutube" class="item" src="icons/youtube.svg">-->
+    </div>
+    <script src="main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

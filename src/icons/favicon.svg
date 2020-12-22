@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect x="-2.506" y="-3.58" width="518.445" height="518.445" style="fill:rgb(73,0,162);"/>
+    <g transform="matrix(0.91899,-0.530579,0.530579,0.91899,68.8228,129.029)">
+        <circle cx="47.978" cy="54.601" r="24.973" style="fill:rgb(235,235,235);"/>
+        <circle cx="128" cy="54.601" r="24.973" style="fill:rgb(235,235,235);"/>
+        <circle cx="208.022" cy="54.601" r="24.973" style="fill:rgb(235,235,235);"/>
+        <circle cx="47.978" cy="125.136" r="24.973" style="fill:rgb(235,235,235);"/>
+        <circle cx="128" cy="125.136" r="24.973" style="fill:rgb(235,235,235);"/>
+        <circle cx="208.022" cy="125.136" r="24.973" style="fill:rgb(235,235,235);"/>
+        <circle cx="47.978" cy="201.399" r="24.973" style="fill:rgb(235,235,235);"/>
+        <circle cx="128" cy="201.399" r="24.973" style="fill:rgb(235,235,235);"/>
+        <circle cx="208.022" cy="201.399" r="24.973" style="fill:rgb(235,235,235);"/>
+        <g transform="matrix(0.816113,0.471183,-0.471183,0.816113,-272.261,-171.75)">
+            <text x="345.989px" y="330.061px" style="font-family:'CevicheOne-Regular', 'Ceviche One';font-size:144px;fill:white;">ki<tspan x="444.773px 510.725px 567.461px " y="330.061px 330.061px 330.061px ">dsO</tspan>S</text>
+        </g>
+    </g>
+</svg>
