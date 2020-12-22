@@ -1,5 +1,5 @@
 const { triggerAsyncId } = require('async_hooks');
-const { app, BrowserWindow, screen, ipcMain } = require('electron');
+const { app, BrowserWindow, screen, ipcMain, globalShortcut } = require('electron');
 const path = require('path');
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -33,6 +33,9 @@ const createWindow = () => {
     mainWindow.setAlwaysOnTop(true);
     // Open the DevTools.
     //mainWindow.webContents.openDevTools();
+    globalShortcut.register('Alt+CommandOrControl+Q', () => {
+        app.quit();
+    })
 };
 
 app.on('web-contents-created', function(webContentsCreatedEvent, contents) {

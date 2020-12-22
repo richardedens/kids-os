@@ -20,9 +20,10 @@
     "config": {
         "forge": {
             "packagerConfig": {
-                "icon": "app.ico"
+                "icon": "app.icns"
             },
-            "makers": [{
+            "makers": [
+                {
                     "name": "@electron-forge/maker-squirrel",
                     "config": {
                         "name": "kidsos"
